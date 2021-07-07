@@ -1,8 +1,8 @@
 import React from 'react';
 
-const Contact = () => {
+const ContactForm = (props) => {
     return (
-        <section className="text-gray-400 bg-gray-900 body-font relative">
+        <section style={{marginTop:props.top}} className="text-gray-400 bg-gray-900 body-font relative">
         <div className="container px-5 py-7 mx-auto">
           <div className="flex flex-col text-center w-full mb-12">
             <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-white">Discuss with me</h1>
@@ -38,4 +38,4 @@ const Contact = () => {
     );
 };
 
-export default Contact;
+export default ContactForm;

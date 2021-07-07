@@ -1,8 +1,8 @@
 import { Component } from "react";
-import { Link } from "react-router-dom";
 import Particles from "react-tsparticles";
 import picture from '../../Assets/Images/profile_img.png';
-
+import { FaGithub, FaLinkedinIn, FaFacebookF, FaTwitter, FaHandPointDown } from 'react-icons/fa';
+import Typical from 'react-typical';
 export default class Banner extends Component {
 
   constructor(props) {
@@ -22,10 +22,9 @@ export default class Banner extends Component {
     const position = {
       position: 'absolute',
       transform: 'translate(-50%, -50%)',
-      top: '50%',
+      top: '55%',
       left: '50%'
     }
-
     return (
       <div class="relative ...">
         <Particles
@@ -160,26 +159,26 @@ export default class Banner extends Component {
           }}
         />
         <div style={position}>
-          <img className="mx-auto rounded-full h-36 w-36 flex items-center justify-center" src={picture} alt="profile_picture" />
-          <h1 className="text-center">Kazi Rayhan</h1>
-          <h3 className="text-center">UI and UX Designer and Developer</h3>
+          <img className="drop-shadow-sm img-border shadow mx-auto rounded-full h-40 w-40 flex items-center justify-center" src={picture} alt="profile_picture" />
+          <h1 className="black text-white text-center text-3xl my-4">Kazi Rayhan</h1>
+
+          <h3 className="text-white text-center text-2xl mb-2">👨‍💻I'M a              <Typical
+              steps={['Front-end Developer', 1000, 'Back-end Developer', 500,'React Developer', 500,'React-native Developer', 500]}
+              loop={Infinity}
+              wrapper="span"
+            />
+          </h3>
           <div className="flex justify-center">
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-            </svg>
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-            </svg>
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-            </svg>
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-            </svg>
+            <a className="m-4 rounded-full bg-indigo-500 text-white text-xl p-3" href="http://https://github.com/rayhanwd" target="_blank" rel="noopener noreferrer"><FaGithub /></a>
+            <a className="m-4 rounded-full bg-indigo-500 text-white text-xl p-3" href="https://www.linkedin.com/in/rayhanwd/" target="_blank" rel="noopener noreferrer"><FaLinkedinIn /></a>
+            <a className="m-4 rounded-full bg-indigo-500 text-white text-xl p-3" href="https://www.facebook.com/KR.RAYHAN70/" target="_blank" rel="noopener noreferrer"><FaFacebookF /></a>
+            <a className="m-4 rounded-full bg-indigo-500 text-white text-xl p-3" href="https://twitter.com/" target="_blank" rel="noopener noreferrer"><FaTwitter />
+            </a>
           </div>
-          <Link to="/"><svg xmlns="http://www.w3.org/2000/svg" className="mt-36 mx-auto animate-bounce w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 11.5V14m0-2.5v-6a1.5 1.5 0 113 0m-3 6a1.5 1.5 0 00-3 0v2a7.5 7.5 0 0015 0v-5a1.5 1.5 0 00-3 0m-6-3V11m0-5.5v-1a1.5 1.5 0 013 0v1m0 0V11m0-5.5a1.5 1.5 0 013 0v3m0 0V11" />
-          </svg></Link>
+          <div className="mt-28">
+            <a className="text-4xl" href="#skill" rel="noopener noreferrer">
+              <FaHandPointDown className="p-2 rounded-full mx-auto animate-bounce bg-indigo-500 text-white" /></a>
+          </div>
         </div>
       </div>
     );
