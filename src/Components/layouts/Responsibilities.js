@@ -1,5 +1,5 @@
 import React from 'react';
-import { Responsibility } from '../../utils/Database';
+import { Res_json } from '../../utils/Database';
 
 const Responsibilities = () => {
   return (
@@ -14,7 +14,7 @@ const Responsibilities = () => {
         </div>
         <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
 
-          {Responsibility.map(data=>
+          {Res_json.map(data=>
             <div key={data.key} className="p-2 sm:w-1/2 w-full">
               <div className="bg-gray-800 rounded flex p-4 h-full items-center">
                 <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" className="text-indigo-400 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">

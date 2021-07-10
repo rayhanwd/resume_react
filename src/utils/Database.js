@@ -1,49 +1,174 @@
-export const Blog = [{
-    img: '',
-    title: '',
-    desc: '',
-    read_more: ''
+// blog_img_import
+import b_1 from '../../src/images/blog/dom_vs_vdom.png';
+import b_2 from '../../src/images/blog/react_hoc.png';
+import b_3 from '../../src/images/blog/react_props.png';
+import b_4 from '../../src/images/blog/node_js.png';
+import b_5 from '../../src/images/blog/javascript_parameter.png';
+//service_icon_import
+import { FaGithub, FaLinkedinIn, FaFacebookF, FaTwitter } from 'react-icons/fa';
+//portfolio_img_import
+import p_1 from '../../src/images/portfolio/Startup_agency.PNG';
+import p_2 from '../../src/images/portfolio/Startup_agency.PNG';
+import p_3 from '../../src/images/portfolio/Startup_agency.PNG';
+import p_4 from '../../src/images/portfolio/Startup_agency.PNG';
+import p_5 from '../../src/images/portfolio/Startup_agency.PNG';
+import p_6 from '../../src/images/portfolio/Startup_agency.PNG';
+import p_7 from '../../src/images/portfolio/Startup_agency.PNG';
+import p_8 from '../../src/images/portfolio/Startup_agency.PNG';
+import p_9 from '../../src/images/portfolio/Startup_agency.PNG';
+import p_10 from '../../src/images/portfolio/Startup_agency.PNG';
+
+export const blog_json = [{
+    id: 1,
+    img: b_1,
+    category: 'Javascript',
+    color: 'text-yellow-500',
+    title: 'What are the differences between V-DOM and DOM',
+    desc: 'The DOM represents the document as nodes and objects.A virtual DOM object is a representation of a DOM object, like a lightweight copy.',
+    view: '243',
+    message: '3'
 },
 {
-    img: '',
-    title: '',
-    desc: '',
-    read_more: ''
+    id: 2,
+    img: b_2,
+    category: 'React',
+    color: 'text-blue-500',
+    title: 'What are the different phases of React component’s lifecycle?',
+    desc: 'These methods are called the components lifecycle methods and they are invoked in a predictable order. Basically all the React components lifecycle methods can be split in four phases: initialization, mounting, updating and unmounting',
+    view: '1.0K',
+    message: '79'
 },
 {
-    img: '',
-    title: '',
-    desc: '',
-    read_more: ''
+    id: 3,
+    img: b_3,
+    category: 'React',
+    color: 'text-blue-500',
+    title: 'What is Props in React?',
+    desc: 'It is an object which stores the value of attributes of a tag and work similar to the HTML attributes. It gives a way to pass data from one component to other components. It is similar to function arguments. Props are passed to the component in the same way as arguments passed in a function',
+    view: '1.1K',
+    message: '111'
+
+},
+{
+    id: 4,
+    img: b_4,
+    category: 'Node JS',
+    color: 'text-green-600',
+    title: 'Why Node.js is single threaded?',
+    desc: 'js was created as an experiment in asynchronous processing and in theory was that doing asynchronous processing on a single thread could provide more performance and scalability under typical web loads than the typical thread-based implementation',
+    view: '247',
+    message: '3'
+
+},
+{
+    id: 5,
+    img: b_5,
+    category: 'Javascript',
+    color: 'text-yellow-500',
+    title: 'What is default parameter?',
+    desc: 'A default argument is a value provided in a function declaration that is automatically assigned by the compiler if the caller of the function does not provide a value for the argument with a default value',
+    view: '987',
+    message: '4'
 
 }];
-export const DevSkill = [{
-    icon: <aaa />,
+export const skill_json = [{
+    id: 1,
+    parsent: 89,
+    title: 'Javascript',
+},
+{
+    id: 2,
+    parsent: 90,
+    title: 'React react-native',
+},
+{
+    id: 3,
+    parsent: 83,
+    title: 'Redux',
+}
+    ,
+{
+    id: 4,
+    parsent: 83,
+    title: 'Node JS',
+}
+    ,
+{
+    id: 5,
+    parsent: 81,
+    title: 'MongoDB',
+}
+    ,
+{
+    id: 6,
+    parsent: 82,
+    title: 'Express',
+}
+    ,
+{
+    id: 7,
+    parsent: 87,
+    title: 'Scss',
+}
+    ,
+{
+    id: 8,
+    parsent: 88,
+    title: 'Bootstrap',
+}
+    ,
+{
+    id: 9,
+    parsent: 89,
+    title: 'Tailwind',
+}
+    ,
+{
+    id: 10,
+    parsent: 89,
+    title: 'Css',
+}
+    ,
+{
+    id: 11,
+    parsent: 86,
+    title: 'HTML',
+}
+    ,
+{
+    id: 12,
+    parsent: 83,
+    title: 'Git github',
+}
+];
+
+export const DevServices = [{
+    icon: <FaGithub />,
     title: 'Web design',
     desc: 'webbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb'
 },
 {
-    icon: <aaa />,
+    icon: <FaLinkedinIn />,
     title: 'Web development',
     desc: 'webbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb'
 },
 {
-    icon: <aaa />,
+    icon: <FaFacebookF />,
     title: 'Single Page Application',
     desc: 'webbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb'
 },
 {
-    icon: <aaa />,
+    icon: <FaTwitter />,
     title: 'React Application',
     desc: 'webbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb'
 },
 {
-    icon: <aaa />,
+    icon: <FaTwitter />,
     title: 'E commerce Development',
     desc: 'webbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb'
 },
 {
-    icon: <aaa />,
+    icon: <FaTwitter />,
     title: 'React Native Development',
     desc: 'webbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb'
 }];
@@ -109,110 +234,104 @@ export const Feedback = [{
 }];
 export const P_Data = [{
     id: 1,
-    img: '',
+    img: p_1,
     title: '',
-    technology:['React', 'Node', 'Javascript'],
+    technology: ['React', 'Node', 'Javascript'],
     desc: 'we bbb bbb bbb bb bbbbb bbbbb bbbbb bbbbbb bbb bbbbbbb bbbb bbbb bbb bbb'
 },
 {
     id: 2,
-    img: '',
+    img: p_2,
     title: '',
-    technology:['React', 'Node', 'Javascript'],
+    technology: ['React', 'Node', 'Javascript'],
     desc: 'we bbb bbb bbb bb bbbbb bbbbb bbbbb bbbbbb bbb bbbbbbb bbbb bbbb bbb bbb'
 },
 {
     id: 3,
-    img: '',
+    img: p_3,
     title: '',
-    technology:['React', 'Node', 'Javascript'],
+    technology: ['React', 'Node', 'Javascript'],
     desc: 'we bbb bbb bbb bb bbbbb bbbbb bbbbb bbbbbb bbb bbbbbbb bbbb bbbb bbb bbb'
 },
 {
     id: 4,
-    img: '',
+    img: p_4,
     title: '',
-    technology:['React', 'Node', 'Javascript'],
+    technology: ['React', 'Node', 'Javascript'],
     desc: 'we bbb bbb bbb bb bbbbb bbbbb bbbbb bbbbbb bbb bbbbbbb bbbb bbbb bbb bbb'
 },
 {
     id: 5,
-    img: '',
+    img: p_5,
     title: '',
-    technology:['React', 'Node', 'Javascript'],
+    technology: ['React', 'Node', 'Javascript'],
     desc: 'we bbb bbb bbb bb bbbbb bbbbb bbbbb bbbbbb bbb bbbbbbb bbbb bbbb bbb bbb'
 },
 {
     id: 6,
-    img: '',
+    img: p_6,
     title: '',
-    technology:['React', 'Node', 'Javascript'],
+    technology: ['React', 'Node', 'Javascript'],
     desc: 'we bbb bbb bbb bb bbbbb bbbbb bbbbb bbbbbb bbb bbbbbbb bbbb bbbb bbb bbb'
 },
 {
     id: 7,
-    img: '',
+    img: p_7,
     title: '',
-    technology:['React', 'Node', 'Javascript'],
+    technology: ['React', 'Node', 'Javascript'],
     desc: 'we bbb bbb bbb bb bbbbb bbbbb bbbbb bbbbbb bbb bbbbbbb bbbb bbbb bbb bbb'
 },
 {
     id: 8,
-    img: '',
+    img: p_8,
     title: '',
-    technology:['React', 'Node', 'Javascript'],
+    technology: ['React', 'Node', 'Javascript'],
     desc: 'we bbb bbb bbb bb bbbbb bbbbb bbbbb bbbbbb bbb bbbbbbb bbbb bbbb bbb bbb'
 },
 {
     id: 9,
-    img: '',
+    img: p_9,
     title: '',
-    technology:['React', 'Node', 'Javascript'],
+    technology: ['React', 'Node', 'Javascript'],
     desc: 'we bbb bbb bbb bb bbbbb bbbbb bbbbb bbbbbb bbb bbbbbbb bbbb bbbb bbb bbb'
 },
 {
     id: 10,
-    img: '',
+    img: p_10,
     title: '',
-    technology:['React', 'Node', 'Javascript'],
-    desc: 'we bbb bbb bbb bb bbbbb bbbbb bbbbb bbbbbb bbb bbbbbbb bbbb bbbb bbb bbb'
-},
-{
-    id: 11,
-    img: '',
-    title: '',
-    technology:['React','Node','Javascript'],
-    desc: 'we bbb bbb bbb bb bbbbb bbbbb bbbbb bbbbbb bbb bbbbbbb bbbb bbbb bbb bbb'
-},
-{
-    id: 12,
-    img: '',
-    title: '',
-    technology:['React', 'Node', 'Javascript'],
+    technology: ['React', 'Node', 'Javascript'],
     desc: 'we bbb bbb bbb bb bbbbb bbbbb bbbbb bbbbbb bbb bbbbbbb bbbb bbbb bbb bbb'
 }];
-export const Responsibility = [{
+export const Res_json = [{
+    id: 1,
     key: 'Create in-house web and mobile applications'
 },
 {
-    key: 'Design mockups and wireframes'
+    id: 2,
+    key: 'Design mockups and wire frames'
 },
 {
+    id: 3,
     key: 'Bug fix, QA, and problem solve'
 },
 {
+    id: 4,
     key: 'Maintain, update, and improve existing company websites'
 },
 {
+    id: 5,
     key: 'Implement websites, landing pages, and applications from concept through deployment, with a responsive, mobile-first approach'
 },
 {
+    id: 6,
     key: 'Work closely with other team members on the development team'
 },
 {
+    id: 7,
     key: 'Perform code reviews'
 },
 {
+    id: 8,
     key: 'Mentor junior developers'
 }
 ];

@@ -32,7 +32,7 @@ const Footer = () => {
           <div className="lg:w-1/2 md:w-2/3 mx-auto">
             <div className="flex flex-wrap -m-2">
               <div className="p-2 w-full pt-8 mt-8 border-t border-gray-800 text-center">
-                <a className="text-indigo-400">rayhanbd4400@email.com</a>
+                <a className="text-indigo-400">rayhanbd4400@gmail.com</a>
                 <p className="leading-normal my-5">Jhenaidah
                   <br />Dhaka, Bangladesh
                 </p>
