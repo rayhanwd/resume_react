@@ -8,15 +8,15 @@ import b_5 from '../../src/images/blog/javascript_parameter.png';
 import { FaGithub, FaLinkedinIn, FaFacebookF, FaTwitter } from 'react-icons/fa';
 //portfolio_img_import
 import p_1 from '../../src/images/portfolio/Startup_agency.PNG';
-import p_2 from '../../src/images/portfolio/Startup_agency.PNG';
-import p_3 from '../../src/images/portfolio/Startup_agency.PNG';
-import p_4 from '../../src/images/portfolio/Startup_agency.PNG';
-import p_5 from '../../src/images/portfolio/Startup_agency.PNG';
-import p_6 from '../../src/images/portfolio/Startup_agency.PNG';
-import p_7 from '../../src/images/portfolio/Startup_agency.PNG';
-import p_8 from '../../src/images/portfolio/Startup_agency.PNG';
-import p_9 from '../../src/images/portfolio/Startup_agency.PNG';
-import p_10 from '../../src/images/portfolio/Startup_agency.PNG';
+import p_2 from '../../src/images/portfolio/car_cleaning.PNG';
+import p_3 from '../../src/images/portfolio/Ride_Finder_APP.PNG';
+import p_4 from '../../src/images/portfolio/Technical_Blog.png';
+import p_5 from '../../src/images/portfolio/vpn_services.png';
+import p_6 from '../../src/images/portfolio/Gadget_bd.png';
+import p_7 from '../../src/images/portfolio/Cooking_Master.png';
+import p_8 from '../../src/images/portfolio/Current_weather_app.png';
+import p_9 from '../../src/images/portfolio/dental_service.png';
+import p_10 from '../../src/images/portfolio/Soccer_club.png';
 
 export const blog_json = [{
     id: 1,
@@ -71,6 +71,7 @@ export const blog_json = [{
     message: '4'
 
 }];
+
 export const skill_json = [{
     id: 1,
     parsent: 89,
@@ -235,72 +236,92 @@ export const Feedback = [{
 export const P_Data = [{
     id: 1,
     img: p_1,
-    title: '',
-    technology: ['React', 'Node', 'Javascript'],
-    desc: 'we bbb bbb bbb bb bbbbb bbbbb bbbbb bbbbbb bbb bbbbbbb bbbb bbbb bbb bbb'
+    title: 'Agency website',
+    technology: ['React','Bootstrap','Scss','Javascript','Firebase','tailwind css','Redux','Node JS', 'Javascript'],
+    desc: 'we bbb bbb bbb bb bbbbb bbbbb bbbbb bbbbbb bbb bbbbbbb bbbb bbbb bbb bbb',
+    live_link:'',
+    git_link:'',
 },
 {
     id: 2,
     img: p_2,
-    title: '',
-    technology: ['React', 'Node', 'Javascript'],
-    desc: 'we bbb bbb bbb bb bbbbb bbbbb bbbbb bbbbbb bbb bbbbbbb bbbb bbbb bbb bbb'
+    title: 'Car care service',
+    technology: ['React','Bootstrap','Scss','Javascript','Firebase','tailwind css','Redux','Node JS', 'Javascript'],
+    desc: 'we bbb bbb bbb bb bbbbb bbbbb bbbbb bbbbbb bbb bbbbbbb bbbb bbbb bbb bbb',
+    live_link:'',
+    git_link:'',
 },
 {
     id: 3,
     img: p_3,
-    title: '',
-    technology: ['React', 'Node', 'Javascript'],
-    desc: 'we bbb bbb bbb bb bbbbb bbbbb bbbbb bbbbbb bbb bbbbbbb bbbb bbbb bbb bbb'
+    title: 'Ride finder App',
+    technology: ['React','Bootstrap','Scss','Javascript','Firebase','tailwind css','Redux','Node JS', 'Javascript'],
+    desc: 'we bbb bbb bbb bb bbbbb bbbbb bbbbb bbbbbb bbb bbbbbbb bbbb bbbb bbb bbb',
+    live_link:'',
+    git_link:'',
 },
 {
     id: 4,
     img: p_4,
-    title: '',
-    technology: ['React', 'Node', 'Javascript'],
-    desc: 'we bbb bbb bbb bb bbbbb bbbbb bbbbb bbbbbb bbb bbbbbbb bbbb bbbb bbb bbb'
+    title: 'Tech blog master',
+    technology: ['React','Bootstrap','Scss','Javascript','Firebase','tailwind css','Redux','Node JS', 'Javascript'],
+    desc: 'we bbb bbb bbb bb bbbbb bbbbb bbbbb bbbbbb bbb bbbbbbb bbbb bbbb bbb bbb',
+    live_link:'',
+    git_link:'',
 },
 {
     id: 5,
     img: p_5,
-    title: '',
-    technology: ['React', 'Node', 'Javascript'],
-    desc: 'we bbb bbb bbb bb bbbbb bbbbb bbbbb bbbbbb bbb bbbbbbb bbbb bbbb bbb bbb'
+    title: 'vpn provider',
+    technology: ['React','Bootstrap','Scss','Javascript','Firebase','tailwind css','Redux','Node JS', 'Javascript'],
+    desc: 'we bbb bbb bbb bb bbbbb bbbbb bbbbb bbbbbb bbb bbbbbbb bbbb bbbb bbb bbb',
+    live_link:'',
+    git_link:'',
 },
 {
     id: 6,
     img: p_6,
-    title: '',
-    technology: ['React', 'Node', 'Javascript'],
-    desc: 'we bbb bbb bbb bb bbbbb bbbbb bbbbb bbbbbb bbb bbbbbbb bbbb bbbb bbb bbb'
+    title: 'Redux shopping cart',
+    technology: ['React','Bootstrap','Scss','Javascript','Firebase','tailwind css','Redux','Node JS', 'Javascript'],
+    desc: 'we bbb bbb bbb bb bbbbb bbbbb bbbbb bbbbbb bbb bbbbbbb bbbb bbbb bbb bbb',
+    live_link:'',
+    git_link:'',
 },
 {
     id: 7,
     img: p_7,
-    title: '',
-    technology: ['React', 'Node', 'Javascript'],
-    desc: 'we bbb bbb bbb bb bbbbb bbbbb bbbbb bbbbbb bbb bbbbbbb bbbb bbbb bbb bbb'
+    title: 'Restaurant, food',
+    technology: ['React','Bootstrap','Scss','Javascript','Firebase','tailwind css','Redux','Node JS', 'Javascript'],
+    desc: 'we bbb bbb bbb bb bbbbb bbbbb bbbbb bbbbbb bbb bbbbbbb bbbb bbbb bbb bbb',
+    live_link:'',
+    git_link:'',
 },
 {
     id: 8,
     img: p_8,
-    title: '',
-    technology: ['React', 'Node', 'Javascript'],
-    desc: 'we bbb bbb bbb bb bbbbb bbbbb bbbbb bbbbbb bbb bbbbbbb bbbb bbbb bbb bbb'
+    title: 'Weather tracking App',
+    technology: ['React','Bootstrap','Scss','Javascript','Firebase','tailwind css','Redux','Node JS', 'Javascript'],
+    desc: 'we bbb bbb bbb bb bbbbb bbbbb bbbbb bbbbbb bbb bbbbbbb bbbb bbbb bbb bbb',
+    live_link:'',
+    git_link:'',
 },
 {
     id: 9,
     img: p_9,
-    title: '',
-    technology: ['React', 'Node', 'Javascript'],
-    desc: 'we bbb bbb bbb bb bbbbb bbbbb bbbbb bbbbbb bbb bbbbbbb bbbb bbbb bbb bbb'
+    title: 'Dental service center',
+    technology: ['React','Bootstrap','Scss','Javascript','Firebase','tailwind css','Redux','Node JS', 'Javascript'],
+    desc: 'we bbb bbb bbb bb bbbbb bbbbb bbbbb bbbbbb bbb bbbbbbb bbbb bbbb bbb bbb',
+    live_link:'',
+    git_link:'',
 },
 {
     id: 10,
     img: p_10,
-    title: '',
-    technology: ['React', 'Node', 'Javascript'],
-    desc: 'we bbb bbb bbb bb bbbbb bbbbb bbbbb bbbbbb bbb bbbbbbb bbbb bbbb bbb bbb'
+    title: 'Sport team tracker',
+    technology: ['React','Bootstrap','Scss','Javascript','Firebase','tailwind css','Redux','Node JS', 'Javascript'],
+    desc: 'we bbb bbb bbb bb bbbbb bbbbb bbbbb bbbbbb bbb bbbbbbb bbbb bbbb bbb bbb',
+    live_link:'',
+    git_link:'',
 }];
 export const Res_json = [{
     id: 1,
