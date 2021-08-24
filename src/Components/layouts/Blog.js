@@ -9,7 +9,7 @@ const Blog = () => {
             <h1 className="sm:text-3xl text-2xl font-medium title-font mb-2 text-white">Technical blog</h1>
             <div className="h-1 w-20 bg-indigo-500 rounded"></div>
           </div>
-          <p className="lg:w-1/2 w-full leading-relaxed text-gray-400 text-opacity-90">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them man bun deep jianbing selfies heirloom prism food truck ugh squid celiac humblebrag.</p>
+          <p className="lg:w-1/2 w-full leading-relaxed text-white text-opacity-90">Web front-end development tutorials and new technology announcements, created by professional freelance software engineers</p>
         </div>
         <div className="flex flex-wrap -m-4">
           {

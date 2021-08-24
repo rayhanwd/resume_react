@@ -15,7 +15,8 @@ const AboutMe = () => {
                         <div className="flex flex-col items-center text-center justify-center">
                             <h2 className="title-font mt-4 text-white text-lg BebasNeue-font">Kazi Rayhan</h2>
                             <div className="w-12 h-1 bg-indigo-500 rounded mt-2 mb-4"></div>
-                            <p className="text-left text-base text-gray-400">Raclette knausgaard hella meggs normcore williamsburg enamel pin sartorial venmo tbh hot chicken gentrify portland.</p>
+                            <p className="text-left text-base text-gray-400">Hi 👋, I'm Kazi Rayhan
+                                A passionate frontend developer from Bangladesh</p>
                         </div>
                     </div>
                     <div className="sm:w-2/3 sm:pl-8 sm:py-8 sm:border-l border-gray-800 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-left">

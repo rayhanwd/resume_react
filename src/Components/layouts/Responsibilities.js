@@ -10,7 +10,7 @@ const Responsibilities = () => {
             <h1 className="sm:text-3xl text-2xl font-medium title-font mb-2 text-white">Development responsibilities </h1>
             <div className="h-1 w-20 bg-indigo-500 rounded"></div>
           </div>
-          <p className="lg:w-1/2 w-full leading-relaxed text-gray-400 text-opacity-90">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them man bun deep jianbing selfies heirloom prism food truck ugh squid celiac humblebees.</p>
+          <p className="lg:w-1/2 w-full leading-relaxed text-white text-opacity-90">Optimizing the user experience. Using HTML, JavaScript and CSS to bring concepts to life. Developing and maintaining the user interface. Implementing design on mobile websites. Creating tools that improve site interaction regardless of the browser.</p>
         </div>
         <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
 
